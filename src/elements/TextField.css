@@ -1,0 +1,22 @@
+.text-field {
+	display: flex;
+	flex-direction: row;
+}
+
+.text-field label {
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.text-field input {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 4px;
+	border: 1px solid #bdbdbd;
+	transition: border-color 0.3s ease;
+}
+.text-field input:focus {
+	outline: none;
+	border-color: #2196f3;
+}

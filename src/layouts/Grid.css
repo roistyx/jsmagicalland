@@ -1,0 +1,30 @@
+.Grid {
+	background-color: var(--bgColor);
+	/* row-gap: var(--gap, 400px); */
+	display: grid;
+	height: 100%;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: repeat(3, 1fr);
+	/* grid-template-rows: 100px 100px 100px; */
+	gap: var(--gap);
+}
+
+.Grid > * {
+	color: white;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* .Grid > :nth-child(1) {
+	background-color: var(--bgColor);
+	color: #fff;
+}
+
+.Grid > :nth-child(2) {
+}
+
+.Grid > :nth-child(3) {
+	background-color: #e1e1e1;
+} */
